@@ -1,0 +1,25 @@
+body {
+    background-image: url("backgroundImage.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
+}
+
+@media only screen and (min-width: 506px) {
+    body{
+        background-image: url("backgroundImage.jpg")
+    }
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    float: left;
+    width: 13%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}

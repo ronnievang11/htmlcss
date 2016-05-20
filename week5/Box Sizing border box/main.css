@@ -1,0 +1,20 @@
+div {
+    border: 3px solid plum;
+    text-align: center;
+}
+
+.simple {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+}
+
+.after {
+    box-sizing: border-box;
+}

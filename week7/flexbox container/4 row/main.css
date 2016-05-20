@@ -1,0 +1,15 @@
+.container {
+    border: 5px solid deeppink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: tan;
+    text-align: center;
+}

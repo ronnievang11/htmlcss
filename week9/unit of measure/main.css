@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+article {
+    font-size: 5rem;
+    border: 2px solid black;
+}
+
+p {
+    margin: 2em;
+    border: 1px solid gray;
+}
+
+#rem{font-size: 3rem;}
+#em{font-size: 2em;}
+

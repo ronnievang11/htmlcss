@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 1500px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    float: left;
+    width: 13%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}
+nav{
+    width: 100%;
+    height: 75px;
+    float: right;
+    background-color: ghostwhite;
+
+}
+#logo{
+    padding: 0;
+    float: left;
+    margin: 0;
+}
+li{
+    padding: 15px;
+}
+
+#ad{
+    margin: 100px auto;
+    display: flex;
+    padding-top: 100px;
+
+}
+
+#games{
+    margin: 0px 50px;
+    padding-top: -20px;
+}
+
+#pic{
+    padding-top: 40px;
+}

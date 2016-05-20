@@ -1,0 +1,28 @@
+body {
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    float: left;
+    width: 25%;
+    margin: 0px;
+}
+
+#cat{
+    border: 4px dashed red;
+}
+nav li {
+    list-style-type: none;
+}
+
+section {
+    margin-left: 25%;
+}
+
+section:last-child::after {
+    content: "MORE THAN 900";
+    color: red;
+    font-weight: bold;
+}

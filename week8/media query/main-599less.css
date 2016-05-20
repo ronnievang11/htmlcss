@@ -1,0 +1,22 @@
+body {
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    float: left;
+    width: 25%;
+}
+
+#cat{
+    border: 4px dashed blue;
+}
+section:last-child::after {
+    content: "LESS THAN 599px";
+    color: red;
+    font-weight: bold;
+}

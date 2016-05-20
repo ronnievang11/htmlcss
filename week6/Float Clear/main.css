@@ -1,0 +1,12 @@
+div {
+    border: 4px solid blue;
+    background-color: pink;
+    text-align: center;
+}
+
+.float {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 1.5em;
+}

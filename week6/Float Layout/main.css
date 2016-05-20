@@ -1,0 +1,28 @@
+body {
+    max-width: 800px;
+    margin: 10px auto;
+    border: 4px solid black;
+}
+
+nav, main {
+    border: 2px dashed red;
+    box-sizing: border-box;
+
+}
+
+nav {
+    width: 25%;
+    vertical-align: top;
+    float: left;
+}
+
+main {
+    width: 75%;
+    float: right;
+}
+
+article {
+    border: 2px solid orange;
+    clear: both;
+
+}

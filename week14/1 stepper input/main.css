@@ -1,0 +1,29 @@
+html, body, div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.stepper{
+    display: flex;
+    border-left: 0;
+    border-right: 0;
+    width: 80px;
+    text-align: center;
+
+}
+
+.buttonRight{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.buttonLeft{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input{
+
+}
+

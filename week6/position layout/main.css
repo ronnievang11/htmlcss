@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+html {
+    margin: 15px;
+}
+
+body {
+    border: 2px solid black;
+    max-width: 500px;
+    margin: auto;
+}
+
+nav, main {
+    border: 2px dashed red;
+}
+
+nav {
+    position: absolute;
+    width: 200px;
+}
+
+main {
+    margin: 0 0 10px 200px;
+}

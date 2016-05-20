@@ -1,0 +1,15 @@
+body {
+    border: 4px dashed black;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    display: none;
+}
+
+section:last-child::after {
+    content: "GETTIN' MY PRINT ON";
+    color: red;
+    font-weight: bold;
+}

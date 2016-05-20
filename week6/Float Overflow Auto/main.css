@@ -1,0 +1,20 @@
+div, img {
+    border: 2px solid red;
+    margin: 20px;
+}
+
+div {
+    overflow: auto;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
+
+p{
+    border: 1px dashed black;
+}
